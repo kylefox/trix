@@ -1,3 +1,3 @@
 module Trix
-  VERSION = '0.11.2'.freeze
+  VERSION = '0.11.4'.freeze
 end
