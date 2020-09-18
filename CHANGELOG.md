@@ -7,6 +7,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 Not released
 
+## 2.3.0
+
+Released September 18, 2020
+
+* ✅ Upgrade to [Trix 1.2.4](https://github.com/basecamp/trix/releases/tag/1.2.4)
+* 💪 Bump to version 2.2.0
+
 ## 2.2.0
 
 Released September 13, 2019
