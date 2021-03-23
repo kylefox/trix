@@ -2,7 +2,7 @@ module Trix
   module SimpleForm
     class TrixEditorInput < ::SimpleForm::Inputs::Base
       def input(_wrapper_options)
-        trix_options = options.slice(:spellcheck, :toolbar, :tabindex, :input)
+        trix_options = options.slice(:spellcheck, :toolbar, :tabindex, :input, :data)
         editor_options = { input: input_class, class: 'trix-content' }.merge(trix_options)
 
         editor_tag = template.content_tag('trix-editor', '', editor_options)
